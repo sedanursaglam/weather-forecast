@@ -424,16 +424,19 @@ function currentDayTempandDesc() {
 
 function updateClock(){
     let dt= new Date();
+    let month = new Date().getMonth();
+    let m;
+    m=(month+1);
     var s = "";
     let d = "";
    
     s += (10 > dt.getHours() ? "0" : "") + dt.getHours() + ":";
     s += (10 > dt.getMinutes() ? "0" : "") + dt.getMinutes();
     
-    d += (10 > dt.getDay() ? "0" : "") + dt.getDay() + "/";
-    d += (10 > dt.getMonth() ? "0" : "") + dt.getMonth() + "/";
+    d += (10 > dt.getDate() ? "0" : "") + dt.getDate() + "/";
+    d += (10 > m ? "0" : "") + m + "/";
     d += (10 > dt.getFullYear() ? "0" : "") + dt.getFullYear();
-
+    setTimeout(updateClock, 1000);
 
     $(".time").html(s);
     $(".date").html(d);
