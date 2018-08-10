@@ -1,0 +1,103 @@
+.big-title {
+    text-align: left;
+    font-size: 5vw;
+    font-weight: bold;
+    margin:0 0 0 5%;
+    color: #aacdd6;
+    text-shadow: 1px 2px 3px #474c51;
+    font-family: 'Arbutus Slab', serif;
+}
+.button-style {
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    background-color: #668641;
+    border-color: #000000;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5% 1%;
+    font-size: 1vw;
+    line-height: 1.5;
+    border-radius: 3%;
+    float: right;
+
+}
+.days-box {
+    height: 70%;
+    width: 90%;
+    margin: 3% 4% 0 4%;
+    box-sizing: border-box;
+    float: left;
+}
+.style{
+    height: 100%;
+    margin: 0 0 0 1%;
+    border-radius: 10%;
+    float: left;
+}
+.small-title {
+    text-align: center;
+    font-size: 3vw;
+    height: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 0 0 0;
+    text-shadow: 1px 2px 3px #070708;
+    font-family: 'Arimo', sans-serif;
+}
+.image-box {
+    float: left;
+    height: 49.19%;
+    width: 36.745%;
+    margin: 5% 0 0 0;
+}
+
+.degree{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px black;
+    font-family: 'Arimo', sans-serif;
+}
+
+.comment{
+    color: #b7f074;
+    text-align: center;
+    font-size: 2.2vw;
+    text-shadow: 1px 1px 1px black;
+    margin: 5%;
+    font-family: 'Arimo', sans-serif;
+}
+
+.text{
+    font-size: 1.5vw;
+    margin:5% 0 0 10%;
+    color: #f6eceb;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Arimo', sans-serif;
+}
+
+.time{
+    font-size: 2.5vw;
+    color: #fff;
+    text-shadow: 1px 2px 2px black;
+    margin: 0 0 0 7%;
+    float: left;
+}
+
+.date{
+    font-size: 1.5vw;
+    color: #fff;
+    text-shadow: 1px 2px 2px black;
+    margin: 0.7% 0 0 2%;
+    float: left;
+}
+
+.day{
+    font-size: 1.5vw;
+    color: #fff;
+    text-shadow: 1px 2px 2px black;
+    margin: 0.7% 0 0 1%;
+    float: left;
+}
